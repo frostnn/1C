@@ -161,6 +161,7 @@ margin-top: 50px;
 margin-bottom: 30px;
 position: relative;
 }
+.contacts-title,
 .news-title,
 .users-title,
 .status-title,
@@ -457,8 +458,62 @@ display: flex;
 
 .news-block__articale:nth-child(2),
 .news-block__articale:first-child{
-  margin-right: 10px;
+  margin-right: 18px;
 }
+
+.map {
+  background-image: url(../img/footerbg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  min-height: 340px;
+  margin-top: 40px;
+}
+
+.contacts {
+max-width: 440px;
+background-color: #fff;
+margin-top: 50px;
+position: absolute;
+right: 320px;
+}
+.contacts-title {
+  text-align: left;
+  padding-top: 20px;
+  margin-top: 0;
+  padding-left: 30px;
+  margin-bottom: 12px;
+}
+.contacts-list {
+  max-width: 300px;
+  padding-left: 30px;
+  font-size: 12px;
+  line-height: 140%;
+  img {
+    padding-right: 10px;
+    margin-bottom: -5px;
+  }
+}
+.contacts-list__item {
+  margin-top: 8px;
+  span {
+    font-weight: bold;
+  }
+}
+
+.contacts-social {
+  padding-left: 30px;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  span {
+    font-weight: bold;
+  }
+  img {
+    margin-right: 15px;
+    margin-bottom: -8px;
+  }
+}
+
 @import "media";
 
 
